@@ -31,8 +31,8 @@ public class CodeSecret {
         return "xxxx";
     }
 
-    public boolean verifierCode(String codeProposé) throws CodeBloquéException {
-        if (nbEssaisRestants <= 0) throw new CodeBloquéException();
+    public boolean verifierCode(String codeProposé) throws izly.CodeBloquéException {
+        if (nbEssaisRestants <= 0) throw new izly.CodeBloquéException();
         if (!code.equals(codeProposé)){
             nbEssaisRestants--;
             return false;
