@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad27c95-246b-4d0c-8723-ffa537eb3f89" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/izly/CodeErronnéException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8ad27c95-246b-4d0c-8723-ffa537eb3f89" name="Default" comment="Correction de bugs">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/CodeBloquéException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/CodeBloquéException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/CodeSecret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/CodeSecret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/CreationPurseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/CreationPurseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/DepassementPlafondException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/DepassementPlafondException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/MontantNegatifException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/MontantNegatifException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/NbOperationsMaxAtteindException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/NbOperationsMaxAtteindException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/Purse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/Purse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/RejetTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/RejetTransactionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/izly/SoldeNegatifException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/izly/SoldeNegatifException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/izly/CodeSecretUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/izly/PurseUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PURSE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PURSE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +29,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dhovabear &lt;43112786+dhovabear@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WWBHR1e4XhhIZ8G2Q9QHEh02xH" />
@@ -55,6 +50,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -72,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.izly" />
       <recent name="izly" />
     </key>
   </component>
@@ -259,8 +256,17 @@
       <workItem from="1538495857737" duration="1706000" />
       <workItem from="1538742879220" duration="4933000" />
       <workItem from="1547114269609" duration="2653000" />
-      <workItem from="1579861149231" duration="306000" />
+      <workItem from="1579861149231" duration="692000" />
+      <workItem from="1580213600711" duration="233000" />
     </task>
+    <task id="LOCAL-00001" summary="Correction de bugs">
+      <created>1579861483541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579861483541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -298,6 +304,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correction de bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction de bugs" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="316" y="56" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1579861261772">
       <screen x="0" y="0" width="1366" height="728" />
@@ -307,96 +317,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579255421485" />
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1579861162625">
+    <state x="58" y="0" key="CommitChangelistDialog2" timestamp="1579861481495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579861162625" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>org.mockito:mockito-all:1.10.19</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>PURSE</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.20000003" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="58" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579861481495" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1579861841438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579861841438" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1579861486284">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579861486284" />
+    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1580213611148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580213611148" />
+    <state x="387" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579861826833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1579861826833" />
   </component>
 </project>
